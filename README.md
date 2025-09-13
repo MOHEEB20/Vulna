@@ -1,5 +1,10 @@
 # 🛡️ Vulna v4.0 - AI-Powered Penetration Testing Platform
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
+[![GitHub stars](https://img.shields.io/github/stars/Keyvanhardani/Vulna.svg?style=social&label=Star)](https://github.com/Keyvanhardani/Vulna)
+[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/keyvanhardani)
+
 **Next-Generation Web Application Security Testing with AI-Driven Filtering, Automated Vulnerability Verification & Burp-Style Request Inspector**
 
 ---
@@ -354,6 +359,33 @@ Vulnerability Detection → Auto-populate Request Inspector
 - No additional requirements
 - Uses existing Ollama installation
 - Leverages current qwen2.5-coder model
+
+---
+
+## 👤 About the Author
+
+**Keyvan Hardani** - AI Engineer specializing in AI Safety, Automotive & Cloud Cyber Security, and Test Automation.
+
+- 🔗 **LinkedIn**: [linkedin.com/in/keyvanhardani](https://linkedin.com/in/keyvanhardani)
+- 🌐 **Website**: [keyvan.ai](https://keyvan.ai)  
+- 📧 **ORCID**: [0009-0000-6003-8826](https://orcid.org/0009-0000-6003-8826)
+- 📍 **Location**: Munich, Germany
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+**© 2025 Keyvan Hardani. All rights reserved.**
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/Keyvanhardani/Vulna/issues).
+
+**Found this project helpful?** ⭐ Give it a star on GitHub!
 
 ---
 
