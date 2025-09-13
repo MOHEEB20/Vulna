@@ -5,7 +5,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/Keyvanhardani/Vulna.svg?style=social&label=Star)](https://github.com/Keyvanhardani/Vulna)
 [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=Linkedin&logoColor=white)](https://linkedin.com/in/keyvanhardani)
 
-**Next-Generation Web Application Security Testing with AI-Driven Filtering, Automated Vulnerability Verification & Burp-Style Request Inspector**
+**Next-Generation Penetration Testing Tool with AI-Driven Request Filtering and Automated Vulnerability Verification**
 
 ---
 
@@ -362,7 +362,29 @@ Vulnerability Detection → Auto-populate Request Inspector
 
 ---
 
-## 👤 About the Author
+## 🏢 Enterprise Features
+
+### Data Privacy & Security
+- **Complete On-Premise Deployment**: All processing happens within your infrastructure
+- **No External Dependencies**: Optional cloud features with explicit opt-in only
+- **Encrypted Local Storage**: SQLite database with AES encryption
+- **Audit Trail**: Complete logging of all analysis activities
+
+### Enterprise Support
+- **Custom Integration**: API endpoints for CI/CD pipeline integration
+- **Compliance Ready**: GDPR, SOC 2, and industry-specific compliance support
+- **Professional Support**: SLA-backed technical support and consultation
+- **Custom Training**: AI model training on your specific environment
+
+### Deployment Options
+- **Docker Container**: Fully containerized deployment
+- **Kubernetes**: Production-ready K8s manifests included  
+- **Air-Gapped**: Complete offline operation capability
+- **Multi-Tenant**: Separate analysis environments per team
+
+**Enterprise Inquiry**: Contact enterprise@keyvan.ai with your requirements.
+
+---
 
 **Keyvan Hardani** - AI Engineer specializing in AI Safety, Automotive & Cloud Cyber Security, and Test Automation.
 
