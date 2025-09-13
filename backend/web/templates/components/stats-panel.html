@@ -1,0 +1,31 @@
+<!-- Stats Panel -->
+<div class="stats-panel">
+    <div class="stats-grid">
+        <div class="stat-card">
+            <div class="stat-number" id="totalRequests">0</div>
+            <div class="stat-label">Total Requests</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="totalFindings">0</div>
+            <div class="stat-label">Vulnerabilities Found</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="httpMethods">0</div>
+            <div class="stat-label">HTTP Methods</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="uniqueDomains">0</div>
+            <div class="stat-label">Unique Domains</div>
+        </div>
+        <div class="stat-card">
+            <div class="stat-number" id="highRiskFindings">0</div>
+            <div class="stat-label">High Risk Issues</div>
+        </div>
+    </div>
+    
+    <div style="text-align: center;">
+        <button class="btn btn-export" onclick="exportRequests()">📤 Export Requests</button>
+        <button class="btn btn-export" onclick="exportFindings()">📤 Export Findings</button>
+        <button class="btn btn-danger" onclick="clearData()">🗑️ Clear Data</button>
+    </div>
+</div>

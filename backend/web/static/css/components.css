@@ -1,0 +1,62 @@
+/* Vulna Dashboard - Components */
+
+/* Stats Panel */
+.stats-panel {
+    grid-column: 1 / -1;
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.stat-card {
+    background: #2d2d2d;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #00ff00;
+    text-align: center;
+}
+
+.stat-number {
+    font-size: 2em;
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.stat-label {
+    color: #cccccc;
+    margin-top: 5px;
+}
+
+/* Panels */
+.requests-panel, .findings-panel {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    border-radius: 10px;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.panel-header {
+    font-size: 1.5em;
+    color: #00ff00;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #333;
+}
+
+.content-area {
+    flex: 1;
+    overflow-y: auto;
+    padding-right: 10px;
+}

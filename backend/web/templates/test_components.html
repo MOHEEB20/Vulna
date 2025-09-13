@@ -1,0 +1,90 @@
+<!-- Simple Test Page to verify modular components -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulna - Component Test</title>
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+    <link rel="stylesheet" href="/static/css/items.css">
+    <link rel="stylesheet" href="/static/css/buttons-modal.css">
+</head>
+<body>
+    <div style="padding: 20px;">
+        <h1 style="color: #00ff00;">🧪 Vulna Modular Component Test</h1>
+        
+        <div style="margin: 20px 0;">
+            <h2>Buttons Test:</h2>
+            <button class="btn btn-primary">Primary Button</button>
+            <button class="btn btn-secondary">Secondary Button</button>
+            <button class="btn btn-export">Export Button</button>
+            <button class="btn btn-danger">Danger Button</button>
+            <button class="btn btn-inspector">Inspector Button</button>
+        </div>
+        
+        <div style="margin: 20px 0;">
+            <h2>Request Item Test:</h2>
+            <div class="request-item POST">
+                <div>
+                    <span class="request-method method-POST">POST</span>
+                    <span>/api/users/login</span>
+                </div>
+                <div style="font-size: 0.8em; color: #999; margin-top: 5px;">
+                    12:34:56 PM
+                </div>
+            </div>
+        </div>
+        
+        <div style="margin: 20px 0;">
+            <h2>Finding Item Test:</h2>
+            <div class="finding-item HIGH">
+                <div>
+                    <span class="risk-badge risk-HIGH">HIGH</span>
+                    <span>SQL Injection Vulnerability</span>
+                </div>
+                <div style="font-size: 0.8em; color: #999; margin-top: 5px;">
+                    /vulnerable/endpoint • Confidence: 95%
+                </div>
+            </div>
+        </div>
+        
+        <div style="margin: 20px 0;">
+            <h2>Stats Card Test:</h2>
+            <div class="stat-card" style="max-width: 200px;">
+                <div class="stat-number">42</div>
+                <div class="stat-label">Test Metric</div>
+            </div>
+        </div>
+        
+        <div style="margin: 20px 0;">
+            <button class="btn btn-primary" onclick="testModal()">Test Modal</button>
+        </div>
+    </div>
+    
+    <!-- Test Modal -->
+    <div id="testModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeTestModal()">&times;</span>
+            </div>
+            <div style="padding: 20px;">
+                <h2>Test Modal</h2>
+                <p>This is a test modal to verify the modular structure works correctly.</p>
+                <button class="btn btn-secondary" onclick="closeTestModal()">Close</button>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        function testModal() {
+            document.getElementById('testModal').style.display = 'block';
+        }
+        
+        function closeTestModal() {
+            document.getElementById('testModal').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

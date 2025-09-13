@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulna Dashboard - Real-time Pentest Monitoring</title>
+    
+    <!-- CSS Files - Modular Structure -->
+    <link rel="stylesheet" href="/static/css/base.css">
+    <link rel="stylesheet" href="/static/css/header.css">
+    <link rel="stylesheet" href="/static/css/components.css">
+    <link rel="stylesheet" href="/static/css/items.css">
+    <link rel="stylesheet" href="/static/css/buttons-modal.css">
+    
+    <!-- Additional AI-specific styles -->
+    <style>
+        .ai-section {
+            margin-top: 20px;
+            padding: 15px;
+            background: #1a1a1a;
+            border: 1px solid #0088ff;
+            border-radius: 8px;
+        }
+        
+        .chat-history {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            max-height: 300px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            border: 1px solid #333;
+        }
+        
+        .chat-input-container {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .chat-input {
+            flex: 1;
+            padding: 10px;
+            background: #2d2d2d;
+            color: white;
+            border: 1px solid #00ff00;
+            border-radius: 5px;
+        }
+        
+        .poc-content, .exploit-content, .autotest-content {
+            background: #1a1a1a;
+            padding: 15px;
+            border-radius: 5px;
+            font-family: monospace;
+            white-space: pre-wrap;
+            max-height: 400px;
+            overflow-y: auto;
+            border-left: 3px solid #00ff00;
+        }
+        
+        .ai-actions-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Connection Indicator -->
+    <div class="connection-indicator" id="connectionIndicator"></div>
+    
+    <!-- Header Component -->
+    {% include 'components/header.html' %}
+    
+    <div class="container">
+        <!-- Proxy Instructions Panel -->
+        {% include 'components/proxy-panel.html' %}
+        
+        <!-- Stats Panel -->
+        {% include 'components/stats-panel.html' %}
+        
+        <!-- Requests Panel -->
+        {% include 'components/requests-panel.html' %}
+        
+        <!-- Findings Panel -->
+        {% include 'components/findings-panel.html' %}
+    </div>
+    
+    <!-- Enhanced Modal Component with AI Features -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close" onclick="closeModal()">&times;</span>
+            </div>
+            <div id="modalContent">
+                <!-- Modal content will be populated by JavaScript -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- JavaScript Files - Modular Structure -->
+    <script src="/static/js/core.js"></script>
+    <script src="/static/js/ui.js"></script>
+    <script src="/static/js/modals.js"></script>
+    <script src="/static/js/actions.js"></script>
+    <script src="/static/js/ai.js"></script>
+    <script src="/static/js/utils.js"></script>
+</body>
+</html>

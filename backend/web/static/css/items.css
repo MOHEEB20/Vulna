@@ -1,0 +1,58 @@
+/* Vulna Dashboard - Request & Finding Items */
+
+.request-item, .finding-item {
+    background: #2d2d2d;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #666;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.request-item:hover, .finding-item:hover {
+    background: #3d3d3d;
+    transform: translateX(5px);
+}
+
+/* Request Method Colors */
+.request-item.GET { border-left-color: #00ff00; }
+.request-item.POST { border-left-color: #ffff00; }
+.request-item.PUT { border-left-color: #ff8800; }
+.request-item.DELETE { border-left-color: #ff0000; }
+
+/* Finding Risk Colors */
+.finding-item.HIGH { border-left-color: #ff0000; }
+.finding-item.MEDIUM { border-left-color: #ffff00; }
+.finding-item.LOW { border-left-color: #00ff00; }
+.finding-item.INFO { border-left-color: #0088ff; }
+
+/* Method Badges */
+.request-method {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.method-GET { background: #003300; color: #00ff00; }
+.method-POST { background: #333300; color: #ffff00; }
+.method-PUT { background: #332200; color: #ff8800; }
+.method-DELETE { background: #330000; color: #ff0000; }
+
+/* Risk Badges */
+.risk-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.risk-HIGH { background: #330000; color: #ff0000; }
+.risk-MEDIUM { background: #333300; color: #ffff00; }
+.risk-LOW { background: #003300; color: #00ff00; }
+.risk-INFO { background: #003333; color: #0088ff; }

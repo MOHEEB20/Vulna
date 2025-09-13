@@ -1,0 +1,40 @@
+<!-- Vulna Dashboard Main Content -->
+<div class="container">
+    <div class="proxy-instructions">
+        <div class="proxy-info">
+            <h3>Proxy Configuration</h3>
+            <p>HTTP/HTTPS Proxy: <code>127.0.0.1:8080</code></p>
+        </div>
+        <div class="browser-controls">
+            <button class="btn btn-browser" onclick="startBrowser()">🚀 Start Browser (Fixed)</button>
+            <button class="btn" onclick="testProxy()">🔍 Test Proxy</button>
+        </div>
+    </div>
+    
+    <div class="stats-panel">
+        <div class="panel-header">Live Statistics</div>
+        <div class="stats-grid" id="statsGrid">
+            <!-- Stats will be populated here -->
+        </div>
+        <div class="controls">
+            <button class="btn" onclick="exportRequests()">Export Requests</button>
+            <button class="btn" onclick="exportFindings()">Export Findings</button>
+            <button class="btn" onclick="clearData()">Clear Data</button>
+            <button class="btn" onclick="refreshData()">Refresh</button>
+        </div>
+    </div>
+    
+    <div class="requests-panel">
+        <div class="panel-header">HTTP Requests (<span id="requestCount">0</span>)</div>
+        <div class="content-area" id="requestsArea">
+            <!-- Requests will be populated here -->
+        </div>
+    </div>
+    
+    <div class="findings-panel">
+        <div class="panel-header">Vulnerabilities (<span id="findingCount">0</span>)</div>
+        <div class="content-area" id="findingsArea">
+            <!-- Findings will be populated here -->
+        </div>
+    </div>
+</div>

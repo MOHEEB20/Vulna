@@ -1,0 +1,55 @@
+/* Vulna Dashboard - Base Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #0a0a0a;
+    color: #ffffff;
+    overflow-x: hidden;
+}
+
+/* Layout Styles */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
+    gap: 20px;
+    padding: 20px;
+    height: calc(100vh - 120px);
+}
+
+/* Utility Classes */
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+
+.p-10 { padding: 10px; }
+.p-15 { padding: 15px; }
+.p-20 { padding: 20px; }
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #00ff00;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #00cc00;
+}

@@ -1,0 +1,28 @@
+# Binaries and Claude Desktop files
+*.exe
+*.dll
+*.pak
+*.bin
+*.dat
+locales/
+resources/
+Vulna-fresh/
+
+# Database files
+data/vulna.db
+data/vulna.db-*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# Logs  
+*.log
+data/logs/
+
+# IDE
+.vscode/
+.idea/
+

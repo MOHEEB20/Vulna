@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vulna Dashboard - Real-time Pentest Monitoring</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+</head>
+<body>
+    <!-- Header Component -->
+    <div class="connection-indicator" id="connectionIndicator"></div>
+    
+    <div class="header">
+        <h1>VULNA</h1>
+        <div class="status" id="statusIndicator">
+            <span id="statusText">Connecting...</span>
+        </div>
+        <div style="clear: both;"></div>
+    </div>
+    
+    <!-- Main Content Component -->
+    <div class="container">
+        <div class="proxy-instructions">
+            <div class="proxy-info">
+                <h3>Proxy Configuration</h3>
+                <p>HTTP/HTTPS Proxy: <code>127.0.0.1:8080</code></p>
+            </div>
+            <div class="browser-controls">
+                <button class="btn btn-browser" onclick="startBrowser()">🚀 Start Browser (Fixed)</button>
+                <button class="btn" onclick="testProxy()">🔍 Test Proxy</button>
+            </div>
+        </div>
+        
+        <div class="stats-panel">
+            <div class="panel-header">Live Statistics</div>
+            <div class="stats-grid" id="statsGrid">
+                <!-- Stats will be populated here -->
+            </div>
+            <div class="controls">
+                <button class="btn" onclick="exportRequests()">Export Requests</button>
+                <button class="btn" onclick="exportFindings()">Export Findings</button>
+                <button class="btn" onclick="clearData()">Clear Data</button>
+                <button class="btn" onclick="refreshData()">Refresh</button>
+            </div>
+        </div>
+        
+        <div class="requests-panel">
+            <div class="panel-header">HTTP Requests (<span id="requestCount">0</span>)</div>
+            <div class="content-area" id="requestsArea">
+                <!-- Requests will be populated here -->
+            </div>
+        </div>
+        
+        <div class="findings-panel">
+            <div class="panel-header">Vulnerabilities (<span id="findingCount">0</span>)</div>
+            <div class="content-area" id="findingsArea">
+                <!-- Findings will be populated here -->
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal Components -->
+    <div id="detailModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    
+    <!-- Notification -->
+    <div id="notification" class="notification"></div>
+
+    <!-- JavaScript Modules -->
+    <script src="/static/js/core.js"></script>
+    <script src="/static/js/controls.js"></script>
+    <script src="/static/js/inspector.js"></script>
+    <script src="/static/js/ai.js"></script>
+    <script src="/static/js/details.js"></script>
+    
+    <!-- Initialize Dashboard -->
+    <script>
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            initializeDashboard();
+        });
+    </script>
+</body>
+</html>

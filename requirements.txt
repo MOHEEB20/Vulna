@@ -1,0 +1,30 @@
+# Core Dependencies
+fastapi
+uvicorn[standard]
+pydantic
+python-multipart
+jinja2
+
+# HTTP Proxy & Browser Automation
+mitmproxy>=12.0.0
+playwright>=1.40.0
+# Fix bcrypt version conflict
+bcrypt==4.0.1
+
+# Async & Queue Management
+aiofiles
+
+# LLM & AI
+httpx
+requests
+
+# Configuration & Environment
+python-dotenv
+
+# Development Dependencies
+pytest
+pytest-asyncio
+
+# Utilities
+click
+rich
